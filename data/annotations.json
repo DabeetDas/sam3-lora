@@ -1,0 +1,60 @@
+{
+    "images": [
+        {
+            "id": 0,
+            "file_name": "/kaggle/input/vrsbench-obb/Images_train/Images_train/00002_0000.png",
+            "width": 512,
+            "height": 512
+        }
+    ],
+    "annotations": [
+        {
+            "id": 0,
+            "image_id": 0,
+            "bbox": [
+                0.443359375,
+                0.423828125,
+                0.146484375,
+                0.169921875
+            ],
+            "area": 6525,
+            "category_id": 1,
+            "noun_phrase": "The toll station is positioned at the center of the image.",
+            "segmentation": {
+                "size": [
+                    512,
+                    512
+                ],
+                "counts": "Tga36i?=C9G1o@YOi>T1VAgNb>f1^AZNV>k1MROnAXO0L001OO1X>T1hAlN001OO1X>]1gAgN1MR>e1mA[NS>h112N2M3N9F6K2N0000000O2O000000O10O10000000000000O10O1000O1000000000O1000000000O10000000001O2N9F7J001O001O1O1O1O1N4M3M6J4K8I;E6I9GPWX3"
+            },
+            "iscrowd": 0
+        },
+        {
+            "id": 1,
+            "image_id": 0,
+            "bbox": [
+                0.576171875,
+                0.435546875,
+                0.041015625,
+                0.02734375
+            ],
+            "area": 294,
+            "category_id": 1,
+            "noun_phrase": "The right-most small vehicle is located near the center, to the right of the toll station.",
+            "segmentation": {
+                "size": [
+                    512,
+                    512
+                ],
+                "counts": "Rgc46i?4M1O1N2O000000000000O10O100001O0O3N2N2N2LjXQ3"
+            },
+            "iscrowd": 0
+        }
+    ],
+    "categories": [
+        {
+            "id": 1,
+            "name": "object"
+        }
+    ]
+}
