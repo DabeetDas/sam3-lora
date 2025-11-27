@@ -416,7 +416,7 @@ lora:
   rank: 8
   alpha: 16
   dropout: 0.05
-  target_modules: ['q_proj', 'v_proj', 'k_proj', 'out_proj']  # Adjust based on your model architecture
+  target_modules: ['q_proj']  # Adjust based on your model architecture
   use_gradient_checkpointing: true
   quantize_base_model: false
 
